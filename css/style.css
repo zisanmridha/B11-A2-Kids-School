@@ -23,6 +23,10 @@
     color: white;
     margin-top: 10px;
 }
+.contact-btnn:hover{
+    background-color:rgb(1, 59, 56);
+
+}
 
 
 li{
@@ -118,21 +122,33 @@ color:black
     color: white;
     
 }
-.hero-img{
+.hero-btn:hover{
     
+    background-color:rgb(1, 59, 56);
+      
 }
 
+
 /* card section style */
+
+#hero-bottom-text h3{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 80%;
+}
+
 .card-title{
     font-size: 50px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 10%;
     padding-top: 5%;
+}
+
+.curi-title{
     background-image:url(bg.png);
     background-position: top;
-    
-
 }
 
 .cardbox{
@@ -160,12 +176,20 @@ color:black
     rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     margin: 10px 10px;
 }
+.card-box1:hover{
+    background-color:#e3f6ff;
+}
+
 .card-box2{
     border: .94px solid rgb(255, 244, 220);
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(255, 244, 220),
     rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     margin: 10px 10px;
+}
+.card-box2:hover{
+    background-color:#fff5e0;
+
 }
 .card-box3{
     border: .94px solid rgb(242, 232, 255);
@@ -174,6 +198,11 @@ color:black
     rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
     margin: 10px 10px;
 }
+.card-box3:hover{
+    background-color:#f1e6ff;
+
+}
+
 
 .card-ime{
     
@@ -193,6 +222,7 @@ color:black
     color: rgb(128,128,128);
     text-align: center;
     line-height: 20px;
+   padding: 20px;
 }
 .card-btn1, .card-btn2, .card-btn3{
     font-size: .9rem;
@@ -202,6 +232,8 @@ color:black
     background-color: white;
     border: none;
     margin: 28px;
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 .card-btn2{
     color:rgb(240, 170, 0) ;
@@ -341,12 +373,16 @@ color:black
     color: white;
     text-align: center;
   }
+  .view-all-btn:hover{
+    background-color: rgb(1, 59, 56);
+  }
 .view-btn{
     text-align: center;
     padding-bottom: 40px;
     margin-top: 30px;
 }
 
+/* footer section style */
 
 .footer{
     max-width: 1440px;
