@@ -9,7 +9,8 @@
 }
 .header, .main{
     max-width: 1440px;
-  margin: 20px auto;
+  margin: 0px auto;
+  background-color: #f7f7f7;
 }
 
 /* nav bar section style */
@@ -22,6 +23,7 @@
     color: white;
 }
 
+
 li{
     list-style: none;
 
@@ -29,6 +31,7 @@ li{
 .brand{
     display: flex;
     align-items: center;
+
 }
 ul{
     display: flex;
@@ -43,6 +46,10 @@ ul{
     justify-content: space-around;
     text-align: center;
 }
+.mobile-nav{
+    display: none;
+}
+
 
 #home{
     color: rgb(254, 163, 1);
@@ -183,7 +190,7 @@ color:black
     text-align: center;
     line-height: 20px;
 }
-.card-btn{
+.card-btn1, .card-btn2, .card-btn3{
     font-size: .9rem;
     font-weight: 700;
     text-align: center;
@@ -192,14 +199,47 @@ color:black
     border: none;
     margin: 28px;
 }
+.card-btn2{
+    color:rgb(240, 170, 0) ;
+
+}
+.card-btn3{
+    color:rgb(135, 0, 255);
+}
+
 .card-lest-btn{
     text-align: center;
+    margin-top: 40px;
 }
-#card-btn-left, #card-btn-right{
-    font-size: 3rem;
-    color: blueviolet;
-    margin: 5px;
+
+
+
+.left-slide-btn, .right-slide-btn{
+    border: none;
+    color: white;
+    border-radius: 30px;
+    transition: background 0.3s;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    padding:0.5rem 1rem;
+    background-color:rgb(254, 163, 1);
+    font-size: 30px;  
 }
+.right-slide-btn:hover{
+    background-color:rgb(1, 59, 56);
+}
+.left-slide-btn:hover{
+    background-color: rgb(1, 59, 56) ;
+}
+.left-slide-btn{
+    margin-right: 5px;
+}
+.right-slide-btn{
+    margin-left: 5px;
+}
+
+
+
 
 /* our stories section style */
 
@@ -223,17 +263,17 @@ color:black
     background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%)
 
   }
-  .grid-layout{
+  .stor-one{
     display: flex;
     gap: 20px;
     
 
   }
-  .left-layout{
+  .left-store-one{
     background-color: white;
     border-radius: 15px;
   }
-  .left-layout time{
+  .left-store-one time{
    background-color: #05D4DF;
    color: white;
    padding: 3% 5%;
@@ -243,32 +283,36 @@ color:black
    cursor: grab;
    text-wrap: nowrap;
   }
-  .left-layout img,.right-layout img {
+  .left-store-one img,.store-two img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
   }
-  .left-layout-info h3{
-    font-size: 1.5rem;
+  .store-one-title{
+    font-size: 1.4rem;
   }
-  .left-layout-info p{
-   margin-top: 3rem;
+  .store-one-des{
+    margin-top: 2.5rem;
    font-size: 20px;
+   color: rgba(0, 0, 0, 0.576);
+   font-weight: 500;
   }
-  .left-layout-info,.right-layout-info{
+
+  .store-bottom-info{
     padding: 5%;
   }
-  .right-layout{
+  .store-two{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: space-around;
     align-items: center;
     gap: 15px;
   }
-  .right-layout-child{
+  
+  .store-child{
     border-radius: 15px;
     background-color: white;
   }
-  .right-layout time{
+  .store-two time{
    background-color: #95B226;
    color: white;
    padding: 3% 5%;
@@ -279,7 +323,8 @@ color:black
    cursor: grab;
    text-wrap: nowrap;
   }
-  .right-layout .right-layout-box3{
+  
+  #store-child-box3{
     background-color: #5D58EF;
   }
   .view-all-btn{
@@ -293,27 +338,31 @@ color:black
 .view-btn{
     text-align: center;
     padding-bottom: 40px;
+    margin-top: 30px;
 }
 
 
 .footer{
     max-width: 1440px;
-    margin: 20px auto;
-
-    padding:5% 0;
-    margin-top: 3%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footerr{
+    
     background-color:rgb(1, 59, 56) ;
     display: flex;
     align-items:flex-start;
     justify-content: space-around;
-
-
-    
+    text-align: center; 
+    padding-top: 20px;
 }
 .footer-logo-title{
     font-size: 2.8rem;
     font-weight:700;
     color: white;
+    text-align: left;
     
 }
 .footer-des{
@@ -332,7 +381,7 @@ color:black
 
 .footer-brand{
     display: block;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .footer-logo{
     display: flex;
@@ -350,6 +399,7 @@ color:black
     color: white;
 
 }
+
 .menu-footer-list{
     
     text-align: left;
