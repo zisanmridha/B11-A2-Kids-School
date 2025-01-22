@@ -125,13 +125,15 @@ color:black
     margin-top: 60px;
     background-image:url(image/bg.png)
 }
+
 .cardbox{
     display: flex;
     justify-content: center;
     padding: 0;
     margin: 0; 
-    margin-left: 12%;  
-    margin-right: 12%;
+    margin-left: 5%;  
+    margin-right: 5%;
+    
 }
 .card-box1, .card-box2, .card-box3{
  
@@ -166,7 +168,7 @@ color:black
     
     justify-content: center;
     align-items: center;
-    margin: 53px 117px 20px 117px;
+    margin-top: 20px;
 
 }
 .card-in-title{
