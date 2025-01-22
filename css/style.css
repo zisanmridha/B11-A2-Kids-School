@@ -21,6 +21,7 @@
     border: none;
     border-radius: 12px;
     color: white;
+    margin-top: 10px;
 }
 
 
@@ -82,13 +83,11 @@ ul{
 .hero{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-   
-    
+    align-items: center; 
+    margin-bottom: -5%;
+    padding-bottom: 30px;
 }
-.hero-section{
-    
-   
+.hero-section{  
     text-align: left;
     margin-top: 71px;
     margin-right: 50PX;
@@ -128,9 +127,12 @@ color:black
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 80px;
-    margin-top: 60px;
-    background-image:url(image/bg.png)
+    margin-bottom: 10%;
+    padding-top: 5%;
+    background-image:url(bg.png);
+    background-position: top;
+    
+
 }
 
 .cardbox{
@@ -140,6 +142,8 @@ color:black
     margin: 0; 
     margin-left: 5%;  
     margin-right: 5%;
+    background-image:url(bg.png);
+    background-position: top;
     
 }
 .card-box1, .card-box2, .card-box3{
@@ -248,6 +252,8 @@ color:black
     margin-bottom: 50px;
     margin-left: 6%;  
     margin-right: 6%;
+    background-image:url(bg.png);
+    background-position: top center bottom;
   }
   .story-top-title{
     text-align: center;
@@ -260,7 +266,7 @@ color:black
   }
   .full-story{
     
-    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%)
+    background: url(bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%)
 
   }
   .stor-one{
